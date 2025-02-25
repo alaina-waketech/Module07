@@ -12,6 +12,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  position: relative; 
+  z-index: 2;
 }
 
 .logo {
@@ -90,8 +92,8 @@ main {
   text-align: center;
 }
 h1 {
-  color: black;
-  padding-top: 30px;
+  color: white;
+  background-color: rgb(119, 51, 68);
 }
 
 .image1 {
